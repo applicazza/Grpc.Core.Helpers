@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Title>Various helpers for Grpc.Core</Title>
+        <Authors>Artyom Sokolov</Authors>
+        <PackageProjectUrl>https://github.com/applicazza/Grpc.Core.Helpers</PackageProjectUrl>
+        <PackageIconUrl>https://avatars-05.gitter.im/group/iv/3/57542c1bc43b8c6019770021</PackageIconUrl>
+        <RepositoryUrl>https://github.com/applicazza/Grpc.Core.Helpers</RepositoryUrl>
+        <PackageId>Helpers.Grpc.Core</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Grpc.Core" Version="1.*" />
+      <PackageReference Include="Helpers.System.Net" Version="1.*" />
+    </ItemGroup>
+
+</Project>
